@@ -1,0 +1,53 @@
+﻿<div id="contact">
+    <style>
+        .left-inner-addon {
+            position: relative;
+        }
+
+            .left-inner-addon input {
+                padding-left: 30px;
+            }
+
+            .left-inner-addon i {
+                position: absolute;
+                padding: 10px 12px;
+                pointer-events: none;
+            }
+
+        .right-inner-addon {
+            position: relative;
+        }
+
+            .right-inner-addon input {
+                padding-right: 30px;
+            }
+
+            .right-inner-addon i {
+                position: absolute;
+                right: 0px;
+                padding: 10px 12px;
+                pointer-events: none;
+            }
+    </style>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+            <h2><p class="l-5">Contact Us</p></h2>
+            <form data-bind="submit : send" class="form-horizontal">
+                Name:<div class="left-inner-addon ">
+                    <i class="glyphicon glyphicon-user"></i><input type="text" data-bind="value:name" class="form-control" style="width:60%;" placeholder="Your Name" />
+                </div><br />
+                Email Address: <div class="left-inner-addon ">
+                    <i class="glyphicon glyphicon-envelope"></i><input type="email" data-bind="value:email" class="form-control" style="width:60%;" placeholder="Email Address" />
+                </div><br />
+                Subject: <input type="text" data-bind="value:subject"class="form-control" style="width:60%;" placeholder="Subject" /><br />
+                Message: <textarea class="form-control" data-bind="value:message" style="min-height:100px;" placeholder="Your Message" />
+                <!--<button type="reset" class="btn btn-default btn" style="float:right;width:100px;margin-top:10px; margin-left:10px;" title="Send"><span class="glyphicon glyphicon-refresh"></span>  Reset</button>-->
+                <button type="submit" class="btn btn-default btn" style="float:right;width:100px;margin-top:10px;margin-bottom:10px;" title="Send"><span class="glyphicon glyphicon-envelope"></span>  Send</button>
+                <span class="text-success" data-bind="text:infoMessage"></span>
+            </form>
+        </div>
+        <div class="col-sm-4"></div>
+
+    </div>
+</div>

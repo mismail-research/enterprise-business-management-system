@@ -1,0 +1,62 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+x64/
+x86/
+
+# NuGet
+packages/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Database files
+*.db
+*.sqlite
+*.mdf
+*.ldf
+*.dmp
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Certificates and private keys
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+
+# Local / machine-specific configuration
+app.local.config
+app.dev.config
+app.live.config
+database.local.config
+database.dev.config
+database.live.config
+
+# Deployment/publish artifacts
+Publish/
+publish/
+*.publish.xml
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+*.iml

@@ -1,0 +1,169 @@
+﻿<section id="contact">
+    <style>
+        .Active {
+            background-color: #77933c;
+            padding: 4px 20px;
+            font-size: 14px;
+            line-height: 14px;
+            vertical-align: baseline;
+            white-space: nowrap;
+            color: #FFF;
+        }
+    </style>
+
+    <section class="content-header">
+        <h1>Contact 
+        <small class="text-danger">( To prevent duplicates, first search for the Contact, before you add a new one )</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href=""><i class="fa fa-dashboard"></i>Home</a></li>
+            <li class="active">Contact</li>
+        </ol>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                Search for Contacts:
+                    <div class="input-group input-group-sm">
+                        <input class="form-control" type="text" data-bind="" placeholder="Search for Contacts">
+                        <a id="btnClear" onclick=""><i class="icon icon-remove"></i>
+                        </a>
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary  btn-flat" type="button"><i class="fa fa-search"></i></button>
+                        </span>
+                        <span class="input-group-btn" data-bind="visible: false">
+                            <button class="btn btn-primary  btn-flat" type="button" title="Clear"><i class="glyphicon glyphicon-remove"></i></button>
+                        </span>
+                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--<div class="col-lg-4 panel-body">
+                                <div class="col-lg-5 pull-left">
+                                    <button data-bind="click: addPerson" class="btn btn-block btn-primary"><i class="fa fa-plus"></i>New Person</button>
+                                </div>
+                                <div class="col-lg-5 pull-left">
+                                    <button class="btn btn-block btn-primary" data-bind="click: addCompany"><i class="fa fa-plus"></i>New Firm</button>
+                                </div>
+                            </div>-->
+                            <div class="col-lg-4 panel-body">
+                                <button class="btn  btn-flat btn-primary " data-bind="click: addPerson"> <i class="fa fa-plus"></i> New Person</button>
+                                <button class="btn  btn-flat btn-primary  margin" data-bind="click: addCompany"> <i class="fa fa-plus"></i> New Firm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <div class="row mart2">
+                            <div class="col-sm-2">
+                                <span class="text-info"><strong>Filters </strong>&nbsp;&nbsp;(Active) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All</span>
+                                <hr class="mart0" style="width: 170px; float: left;" />
+                                <div class="btn btn-primary btn-lg" style="width: 170px">
+                                    <img src="../../../Content/icons/employees.png" />
+                                    <p>15</p>
+                                    <p>Person</p>
+                                </div>
+                                <div class="btn btn-primary btn-lg" style="width: 170px; margin-top: 10px;">
+                                    <img src="../../../Content/icons/company.png" />
+                                    <p>50</p>
+                                    <p>Company</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-10">
+                                <span class="text-info"><strong>Search Results</strong></span>
+                                <hr class="mart0" />
+                                <div style="border: 1px #f1eded solid; min-height: 130px; padding: 10px; margin-bottom: 10px;">
+                                    <div class="col-sm-2">
+                                        <img src="../../../Content/icons/mark.png" width="115" height="115" style="float: left;" />
+                                    </div>
+                                    <div class="col-sm-9" style="float: left;">
+                                        <span class="Active">Active</span>
+                                        <span class="info text-info" style="padding-left: 10px"><strong>Mr. James Wilson</strong> (Sherserve)</span>
+                                        <p class="info text-info" style="padding-top: 5px">United Kingdom</p>
+                                        <p class="info text-info">Updated By: 5 weeks ago By: Muhammad Iqbal (miqbal@sherserve.com)</p>
+                                        <span class="btn  btn-flat btn-primary  btn-sm" data-bind="click: addPerson">View</span>
+                                        <span id="priview" class="btn  btn-flat btn-primary  btn-sm" data-bind="click: viewPeople">Update</span>
+                                        <span id="download" class="btn  btn-flat btn-primary  btn-sm" data-bind="click: viewPeople">People</span>
+                                        <span class="btn  btn-flat btn-primary  btn-sm" data-bind="click: delContact">Delete</span>
+                                    </div>
+
+                                </div>
+                                <div style="border: 1px #f1eded solid; min-height: 130px; padding: 10px; margin-bottom: 10px;">
+                                    <div class="col-sm-2">
+                                        <img src="../../../Content/icons/Rose.png" width="115" height="115" style="float: left;" />
+                                    </div>
+                                    <div class="col-sm-9" style="float: left;">
+                                        <span class="Active">Active</span>
+                                        <span class="info text-info" style="padding-left: 10px"><strong>Mrs Jackson Jab</strong> (Ambosco)</span>
+                                        <p class="info text-info" style="padding-top: 5px">United Kingdom</p>
+                                        <p class="info text-info">Updated By: 5 weeks ago By: Muhammad Iqbal (miqbal@sherserve.com)</p>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">View</span>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">Update</span>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">People</span>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">Delete</span>
+                                    </div>
+
+                                </div>
+                                <div style="border: 1px #f1eded solid; min-height: 130px; padding: 10px;">
+                                    <div class="col-sm-2">
+                                        <img src="../../../Content/icons/charles.png" width="115" height="115" style="float: left;" />
+                                    </div>
+                                    <div class="col-sm-9" style="float: left;">
+                                        <span class="Active">Active</span>
+                                        <span class="info text-info" style="padding-left: 10px"><strong>Mr. Kris Carlson</strong> (Morgangoodwin)</span>
+                                        <p class="info text-info" style="padding-top: 5px">United Kingdom</p>
+                                        <p class="info text-info">Updated By: 5 weeks ago By: Muhammad Iqbal (miqbal@sherserve.com)</p>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">View</span>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">Update</span>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">People</span>
+                                        <span class="btn  btn-flat btn-primary  btn-sm">Delete</span>
+                                    </div>
+
+                                </div>
+                                <div data-bind="visible: false">
+                                    <hr class="mart0" />
+                                    <span class="text-info">No Record Found.</span>
+                                </div>
+                                <hr />
+                                <div style="background-color: #f1eded; padding: 5px;">
+                                    <span class="text-info">Showing 3 of 3 Records.</span>
+                                    <span class="text-info" data-bind="visible: false" style="float: right;">View More</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="preview-pane">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" data-bind="click: $parent.closeModal">&times;</button>
+                                        <h1 class="modal-title" data-bind="text: 'Preview'">Preview</h1>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="span6">
+                                            <iframe class="preview-pane" width="100%" height="500" frameborder="1"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal" data-bind="click: $parent.closeModal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</section>

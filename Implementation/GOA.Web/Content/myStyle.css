@@ -1,0 +1,106 @@
+﻿.btn-grid.btnedit
+{
+    background: transparent url("../Images/edit-icon.png") no-repeat scroll 0 100% / 20px 50px;
+    float: left;
+    margin-left: 3px;
+}
+
+.btn-grid.btnview
+{
+    background: transparent url("../Images/mag-glass.png") no-repeat scroll 0 100% / 20px 50px;
+    float: left;
+    margin-left: 3px;
+}
+
+.btn-grid.btndelete
+{
+    background: transparent url("../Images/minus.png") no-repeat scroll 0 100% / 20px 50px;
+    float: left;
+    margin-left: 3px;
+}
+
+.btn-grid.btnmarket
+{
+    background: transparent url("../Images/market-icon.png") no-repeat scroll 0 100% / 20px 50px;
+    float: left;
+    margin-left: 3px;
+}
+
+.btn-grid
+{
+    box-shadow: none !important;
+    display: inline-block;
+    height: 20px;
+    text-shadow: none !important;
+    vertical-align: middle;
+    width: 20px;
+    cursor: pointer;
+}
+
+    .btn-grid:hover
+    {
+        background-position: 0px 0px;
+        box-shadow: none;
+        cursor: pointer;
+        color: white;
+    }
+
+.table > thead:first-child > tr:first-child > th
+{
+    background-color: white;
+    color: rgba(0, 192, 239, 0.98) !important;
+    font-weight: 600;
+}
+
+tr:hover
+{
+    background-color: rgba(0, 192, 239, 0.98) !important;
+    white;
+    color: white !important;
+    border-color: inherit;
+}
+
+.Active
+{
+    background-color: #94BA65;
+    padding: 2px 20px;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: baseline;
+    white-space: nowrap;
+    color: White;
+}
+
+.Suspended
+{
+    background-color: #F89406;
+    padding: 2px 5px;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: baseline;
+    white-space: nowrap;
+    color: White;
+}
+
+.Deleted
+{
+    background-color: #B94A48;
+    padding: 2px 15px;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: baseline;
+    white-space: nowrap;
+    color: White;
+}
+
+.padding0
+
+{
+    padding: 0;
+    padding-left:5px;
+}
+
+.margin-bottom10
+{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,193 @@
+﻿<section id="persons">
+    <style>
+        
+    </style>
+    <section class="content-header">
+        <h1>Products
+        <small class="text-danger">(Ensure you fill in all fields correctly)</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href=""><i class="fa fa-dashboard"></i>Home</a></li>
+            <li><a href="contact">Pages</a></li>
+            <li class="active">Products</li>
+        </ol>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12" >
+                <div class="box box-primary">
+                    <div data-bind="with: product">
+                        <div class="box-header">
+                            <h3 class="box-title">Primary Details</h3>
+                        </div>
+
+                        <div class="box-body">
+
+                            <div class="col-lg-8">
+
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Commodity Code</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Commodity Code" data-bind="value:commodityCode" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Description</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Description" data-bind="value:productDescription" />
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Importer Name</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Importer Name" data-bind="" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Phone No</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Phone No" data-bind="" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="">Email</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="email" class="form-control input-sm" placeholder="Email" data-bind="" />
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Quantity</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Quantity" data-bind="value:productQuantity" />
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Package Description</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Package Description" data-bind="value:productUnit" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Arrival Date</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Arrival Date" data-bind="datepicker: arrivalDate" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Exporter Name</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Exporter Name" data-bind="value:exporterName" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Of box-body-->
+                        <div class="box-header">
+                            <h3 class="box-title">Importer Address</h3>
+                        </div>
+                        <div class="box-body">
+                            <div class="col-lg-8">
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Address</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Enter Importer Address" data-bind="" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label>Town/Locality:</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Enter Importer Town/Locality" data-bind="" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">City/Region:</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Enter Importer City/Region" data-bind="" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Postal/Zip Code:</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control input-sm" placeholder="Enter Importer Postal/Zip Code" data-bind="" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-3">
+                                        <label for="" class="text-danger">Country:</label>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <select class="chosen-select" data-bind=" select2: {}" style="width: 100%;">
+                                            <option>Pakistan</option>
+                                            <option>United Kingdom</option>
+                                            <option>United States</option>
+                                            <option>Saudia Arabia</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Of box-body-->
+
+
+
+
+                    <hr class="mart2" />
+                    <div class="row">
+                        <div class="box-body">
+                            <!--<div class="col-lg-4 pull-right">
+                                <button data-bind="click: save" class="btn btn-success pull-right" style="width: 120px; margin-right: 20px;">Save</button>
+                                <button data-bind="click: close" class="btn btn-danger pull-right" style="width: 120px; margin-right: 20px;">Close</button>
+
+                            </div>-->
+                            <div class="col-lg-4 pull-right">
+                                <div class="col-lg-5 pull-right">
+                                    <button class="btn btn-block btn-success " data-bind="click: save">Save</button>
+                                </div>
+                                <div class="col-lg-5 pull-right">
+                                    <button class="btn btn-block btn-danger " data-bind="click: close">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+</section>
+
+
+
+

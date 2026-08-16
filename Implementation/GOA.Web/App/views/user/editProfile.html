@@ -1,0 +1,18 @@
+﻿<div class="container">
+    <h1>Edit Profile</h1><br />
+    <div data-bind="with:profile">
+        <label>First Name</label>
+        <input class="form-control" placeholder="First Name" data-bind="value: firstName" />
+
+        <label>Last Name</label>
+        <input class="form-control" placeholder="Last Name" data-bind="value: lastName" />
+
+        <label>Bio</label>
+        <textarea class="form-control" placeholder="Bio" data-bind="value: bio" />
+    </div>
+<br />
+    <button type="button" class="btn btn-primary" data-bind="click: save">Save</button>
+    <button type="button" class="btn btn-warning" data-bind="click: rollBack">Cancel</button>
+    <button type="reset" class="btn btn-danger" >Reset</button>
+    
+</div>
