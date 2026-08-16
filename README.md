@@ -150,8 +150,6 @@ The web application layer containing the user interface, Web API functionality, 
 The application implements OAuth bearer-token authentication using OWIN middleware.
 
 Authenticated requests use bearer-token authorization:
-
-```text
 Authorization: Bearer <access-token>
 No production passwords, API keys, private keys, certificates, or database credentials are included in the repository.
 
