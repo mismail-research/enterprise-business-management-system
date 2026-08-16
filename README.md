@@ -31,7 +31,7 @@ The implementation demonstrates practical use of ASP.NET Web API, Entity Framewo
 
 ## Architecture
 
-The system follows a layered architecture consisting of the following major components:
+The system follows a layered architecture consisting of four major components:
 
 ```text
 Enterprise Business Management System
@@ -215,10 +215,4 @@ It provides an example of integrating web application development, domain modeli
 
 No open-source license has been specified for this repository.
 
-## Author
 
-**Muhammad Ismail**
-
-Lecturer | Computer Science & Software Engineering
-
-GitHub: [mismail-research](https://github.com/mismail-research)
