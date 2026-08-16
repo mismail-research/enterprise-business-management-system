@@ -97,19 +97,18 @@ Enterprise Business Management System
 - Repository Pattern
 - Unit of Work Pattern
 Repository Structure
-###  EnterpriseBusinessManagementSystem/
+```text
+EnterpriseBusinessManagementSystem/
 │
 ├── .gitignore
 │
 └── Implementation/
     │
     ├── GOA.Data/
-    │
     ├── GOA.Domain/
-    │
     ├── GOA.Logger/
-    │
     └── GOA.Web/
+```
 ### GOA.Data
 
 The data-access layer responsible for database interaction and persistence.
