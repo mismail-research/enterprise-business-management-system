@@ -57,6 +57,7 @@ Enterprise Business Management System
 │
 └── GOA.Logger
     └── Application Logging
+```
 ### Application Layers
 
 | Component | Responsibility |
