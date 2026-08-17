@@ -211,6 +211,8 @@ This project demonstrates the design and implementation of an enterprise-oriente
 
 It provides an example of integrating web application development, domain modeling, database access, authentication, client-side application components, and application logging within a single structured system.
 
+This repository is presented as a professional software-development portfolio project demonstrating practical experience in designing and implementing enterprise-oriented applications.
+
 ## License
 
 No open-source license has been specified for this repository.
